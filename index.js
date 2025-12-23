@@ -12,8 +12,8 @@ writeableBytes[1] = 0x12; //0x1234
 writeableBytes[2] = 0x34;
 
 writeableBytes[3] = instructions.SHOVE_R2;
-writeableBytes[4] = 0xAB;
-writeableBytes[5] = 0xCD;
+writeableBytes[4] = 0x56;
+writeableBytes[5] = 0x78;
 
 
 writeableBytes[6] = instructions.SMUSH_REG_REG;
