@@ -1,6 +1,9 @@
-const SHOVE_R1 =  0x10;
-const SHOVE_R2 = 0x11;
-const SMUSH_REG_REG = 0x12;
+const SHOVE_LTT_REG =  0x10;
+const SHOVE_REG_REG = 0x11;
+const SHOVE_REG_MEM = 0x12;
+const SHOVE_MEM_REG = 0x13;
 
-module.exports = {SHOVE_R1, SHOVE_R2,
-    SMUSH_REG_REG};
+const SMUSH_REG_REG = 0x14;
+
+module.exports = {SHOVE_LTT_REG,SHOVE_REG_REG,
+    SHOVE_MEM_REG,SHOVE_REG_MEM,SMUSH_REG_REG};
